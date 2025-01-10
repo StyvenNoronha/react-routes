@@ -49,3 +49,25 @@ a, button{
 a:hover, button:hover{
     filter: brightness(0.7);
 }
+
+
+.cards{
+    display: flex;
+    gap: 1rem;
+    margin: 18px 0;
+    flex-wrap: wrap;
+    padding: 2rem;
+    
+    & a{
+        width: 100px;
+        height: 100px;
+        background-color: #d7eff9;
+        border-radius: 12px;
+        color: #0095e5;
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
