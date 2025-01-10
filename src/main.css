@@ -28,6 +28,16 @@ nav{
     & a {
         color: #f24d0d;
     }
+
+    & button{
+        background-color: #f24d0d;
+        padding: 12px 16px;
+        border-radius: 7px;
+        border: none;
+        color: #fff;
+
+        cursor: pointer;
+    }
 }
 
 a, button{
